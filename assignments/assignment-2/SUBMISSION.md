@@ -21,34 +21,34 @@ I built my HTML structure by going over the slideshows from class and taking not
 
 
 ## Code Explanation:
-This is a key part of my code and it is the navigation section and this allows me or anyone viewing the webpage to press a link that will navigate them into any of the sections on the webpage:
+This is a key part of my code and it is the navigation section and this allows me or anyone viewing the webpage to press a link that will navigate them into any of the sections on the webpage. It has a comment saying what the navigation menu does.
+<!-- Navigation menu for quick access to page sections -->
 <nav>
     <ul>
-        <li><a href="#About Me">About me</a></li>
+        <li><a href="#AboutMe">About me</a></li>
         <li><a href="#Education">Education</a></li>
-        <li><a href="#Work Experience">Work Experience</a></li>
+        <li><a href="#WorkExperience">Work Experience</a></li>
         <li><a href="#Languages">Languages</a></li>
         <li><a href="#Projects">Projects</a></li>
         <li><a href="#extracurricular">Extracurriculars</a></li>
-        <li><a href="#Contact Information">Contact Information</a></li>
+        <li><a href="#ContactInformation">Contact Information</a></li>
     </ul>
 </nav>
 
 This is another key part of my HTML code and it is my education section, it displays the school I am currently at, my major and expected graduation date and it also displays a table of my schools and achievements:
 
 <main>
-    <section>
+<section>
         <h2 id="Education">Education</h2>
-            <ul>
-                <li style="font-size: 18px;">Current University: San Francisco State University</li>
-                <ul>
-                    <li>Major: Computer Science</li>
-                    <li>Expected Graduation: December 2026</li>
-                </ul>   
-            </ul>
-            
+
+        <ul>
+            <li style="font-size: 18px;">Current University: San Francisco State University</li>
+            <li style="font-size: 18px;">Major: Computer Science</li>
+            <li style="font-size: 18px;">Expected Graduation: December 2026</li>
+        </ul>
+
 <!-- Table displaying education history and achievements -->
-         <table>
+     <table>
             <tr>
                 <th style="border: 3px solid; padding: 6px">School</th>
                 <th style="border: 3px solid; padding: 6px">Achievements</th>
@@ -63,5 +63,5 @@ This is another key part of my HTML code and it is my education section, it disp
                 <td style="border: 2px solid">Computer Science AA Degree For Transfer</td>
             </tr>  
 
-        </table>
-    </section>
+    </table>
+</section>
