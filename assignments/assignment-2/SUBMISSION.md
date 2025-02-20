@@ -12,7 +12,6 @@
 This was a personal portfolio website that showcases different sections like about me, work experience, langauges, contact information and other sections also. It also has a profile picture of myself, a picture of my hometown, and a logo of my school. the objectives of this assignment was to Master HTML5 fundamentals and semantic structure, understand and implement proper document structure, create accessible and well-organized content and apply HTML best practices for web development.
 
 
-
 ## Approach / What I Did:
 Describe your approach to building the HTML structure. Explain design choices, layout decisions, and how elements are structured:
 
