@@ -1,0 +1,157 @@
+/* === Global Styles and Variables === */
+/* Colors taken from both style sheets */
+:root {
+    --primary-color: #1E3A8A; /* Taken from styles.css */
+    --secondary-color: #FF914D; /* Taken from ai-2 */
+    --background-color: #1E3A5F; /* Taken from ai-2 */
+    --background-color2: #F8FAFC; /* Taken from ai-2 */
+    --text-color: #F8FAFC; /* Taken from ai-2 */
+    --hover-color: #FF6F61; /* Taken from ai-2 */
+    --font-primary: 'Poppins', sans-serif; /* Taken from ai-2 */
+}
+
+body {
+    font-family: var(--font-primary);
+    background-color: var(--background-color);
+    color: var(--text-color);
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    line-height: 1.6;
+}
+
+/* === Header Section === */
+header {
+    text-align: center;
+    padding: 20px;
+    background: linear-gradient(to right, var(--primary-color), var(--secondary-color));
+    color: white;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+header h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+/* === Navigation Section === */
+nav {
+    display: flex;
+    justify-content: center;
+    background: var(--primary-color);
+    padding: 1rem;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    font-weight: bold; 
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li a {
+    color: var(--text-color);
+    text-decoration: none;
+    font-size: 1.2rem;
+    padding: 10px 15px;
+    transition: color 0.3s ease-in-out;
+}
+
+nav ul li a:hover {
+    color: var(--hover-color);
+}
+
+/* === Sections === */
+section {
+    max-width: 800px;
+    margin: 30px auto;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    text-align: left;
+    transition: transform 0.3s ease-in-out;
+}
+
+section:hover {
+    transform: scale(1.02);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
+}
+
+/* === Typography === */
+h2 {
+    color: var(--secondary-color);
+    border-bottom: 2px solid var(--hover-color);
+    padding-bottom: 0.5rem;
+    font-size: 1.8rem;
+}
+
+/* === Contact Information Section === */
+.contact-info {
+    background: white; /* Make background white */
+    color: var(--secondary-color); /* Make text same color as section headers */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* === Tables === */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+    background: rgba(255, 255, 255, 0.2);
+}
+
+th, td {
+    border: 2px solid var(--primary-color);
+    padding: 10px;
+    text-align: center;
+}
+
+/* === Images === */
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out;
+}
+
+img:hover {
+    transform: scale(1.05);
+}
+
+/* === Footer === */
+footer {
+    text-align: center;
+    padding: 2rem;
+    background: var(--background-color2);
+    color: var(--primary-color);
+    transition: transform 0.3s ease-in-out;
+}
+
+footer:hover {
+    transform: scale(1.02);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
+}
+
+/* === Responsive Design === */
+@media (max-width: 768px) {
+    nav {
+        display: block;
+        text-align: center;
+    }
+
+    nav ul {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    section {
+        width: 90%;
+        padding: 15px;
+    }
+}
