@@ -2,7 +2,7 @@ Name: Rami Hanna
 Student ID: 924448249
 
 GitHub Repository: https://github.com/ramihanna74/CSC-317
-Live GitHub Pages URL: 
+Live GitHub Pages URL: https://ramihanna74.github.io/CSC-317/assignments/assignment-4/calculator.html
 
 Project Description:
 For this project, I made a working calculator using HTML, CSS, and JavaScript. It looks like the iPhone IOS calculator and works on both desktop and mobile screens. The calculator can add, subtract, multiply, divide, show percentages, change signs, and handle decimals. I also made sure users can use the keyboard to type in numbers. I added the calculator as the first project on my portfolio website.
