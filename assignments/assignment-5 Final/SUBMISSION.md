@@ -1,0 +1,2 @@
+Working on the group movie review website helped me strengthen both technical and teamwork skills. I learned how to integrate frontend and backend components, use tools like EJS and Git, and manage responsibilities in a collaborative environment. The project improved my communication, problem-solving, and adaptability, giving me valuable experience in building a real-world web application as part of a team.
+
